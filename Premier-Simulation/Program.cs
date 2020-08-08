@@ -138,6 +138,55 @@ namespace Premier_Simulation
             }
         }
 
+        public class League
+        {
+
+        }
+
+        public class Fixture
+        {
+        
+        }
+
+        public class Stats
+        {
+            public int MarginVictory { get; set; }
+            public int MostMatchGoalsTotal { get; set; }
+            public int MostMatchGoalsClub { get; set; }
+            public int FewestPointsChampion { get; set; }
+            public int MostPointsRelegated { get; set; }
+
+            public bool IsMarginGreater(Fixture fixture)
+            {
+
+                return true;
+            }
+
+            public bool IsTotalMatchGoalsGreater(Fixture fixture)
+            {
+
+                return true;
+            }
+
+            public bool IsClubMatchGoalsGreater(Fixture fixture)
+            {
+
+                return true;
+            }
+
+            public bool IsChampionPointsLesser(League league)
+            {
+
+                return true;
+            }
+
+            public bool IsRelegatedPointsGreater(League league)
+            {
+
+                return true;
+            }
+        }
+
         public static void PlayFixture(Club home, Club away)
         {
             // Get lambda value for both teams
