@@ -8,8 +8,8 @@ namespace Premier_Simulation
 {
     class Program
     {
-        private static readonly double _homegoalsavg = 1.568;
-        private static readonly double _awaygoalsavg = 1.253;
+        private static readonly double _homegoalsavg = 0.758;
+        private static readonly double _awaygoalsavg = 0.603;
         private static readonly int _simulations = 1000000;
 
         public static void Main(string[] args)
@@ -31,10 +31,10 @@ namespace Premier_Simulation
                 new Club("Manchester City", 1.979, 0.568, 1.965, 0.764),
                 new Club("Manchester United", 1.389, 0.742, 1.135, 0.660),
                 new Club("Newcastle United", 0.694, 0.917, 0.786, 1.285),
-                new Club("Norwich", 0.660, 1.616, 0.306, 1.319),
+                new Club("Norwich City", 0.660, 1.616, 0.306, 1.319),
                 new Club("Sheffield United", 0.833, 0.655, 0.655, 0.833),
                 new Club("Southampton", 0.729, 1.528, 1.310, 0.868),
-                new Club("Tottenham Hotspurs", 1.250, 0.742, 1.092, 1.042),
+                new Club("Tottenham Hotspur", 1.250, 0.742, 1.092, 1.042),
                 new Club("Watford", 0.764, 1.179, 0.611, 1.285),
                 new Club("West Ham United", 1.042, 1.441, 0.830, 1.007),
                 new Club("Wolverhampton Wolves", 0.938, 0.830, 1.048, 0.729)
